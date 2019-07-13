@@ -120,6 +120,7 @@ section.main-content .top-content {
 
 div.bottom-content {
 	display: flex;
+	padding: 0 25px 0 0;
 	padding-bottom: 30px;
 	border-bottom: 2px solid black;
 }
