@@ -66,58 +66,67 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width:1000px
+	max-width: 876px;
+	margin: auto;
 }
-header{
-	display:flex;
-	margin:20px 0px;
+
+header {
+	display: flex;
 	justify-content: space-between;
+	margin: 30px 0;
+	align-items: center;
 }
 
 header nav {
 	display: flex;
-	width:70%;
 	justify-content: space-between;
-	align-content:center;
+	width: 65%;
 }
 
 header nav a {
-	color:grey;
 	text-decoration: none;
+	color: grey;
 }
 
 section.cta {
 	display:flex;
 	justify-content: space-between;
-	align-items: center;
+	text-align: center;
+	padding: 15px 0 45px 0;
 	border-bottom: 2px solid black;
-	padding:15px 0 30px 0;
 }
 
 section.cta .cta-text {
-	font-size:3.5rem;
-	text-align:center;
-	margin:auto;
+	margin: auto;
+}
+
+section.cta .cta-text h1 {
+	font-size: 4.5rem;
 }
 
 section.main-content {
 	display:flex;
 	flex-direction: column;
-	border-bottom: 2px solid black;
 }
 
 section.main-content .top-content {
-	display:flex;
+	display: flex;
 	margin: 30px 0;
 }
 
-section.main-content .bottom-content {
-	display:flex;
-	margin:30px 0px;
+.middle-img {
+	padding-bottom: 30px;
+}
+
+div.bottom-content {
+	display: flex;
+	padding: 0 25px 0 0;
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
 }
 
 section.contact {
-	margin:30px 0;
+	padding-top: 30px;
 }
 
 footer {
